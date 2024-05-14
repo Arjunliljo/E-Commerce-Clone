@@ -1,4 +1,4 @@
-import Body from "./Components/Body";
+import Main from "./Components/Main";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Header />
-      <Body />
+      {/* {loading && <Loader />}
+      {!loading && !error && <Main />} */}
+      <Main></Main>
       <Footer />
     </>
   );

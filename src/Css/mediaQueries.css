@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  /* CSS rules for large devices */
+}
+
+/* Extra large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* CSS rules for extra large devices */
+  nav {
+    display: flex;
+  }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra extra large devices */
+}

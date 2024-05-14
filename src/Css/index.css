@@ -1,3 +1,14 @@
-body {
-  background-color: black;
+.img-box {
+  width: 10rem;
+}
+.icons {
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+.icons span {
+  cursor: pointer;
+}
+nav a {
+  color: white;
 }
