@@ -12,3 +12,23 @@
 nav a {
   color: white;
 }
+.secondBgImg,
+.firstBgImg {
+  height: 100%;
+  width: 100%;
+}
+
+.home-contents {
+  position: absolute;
+
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  height: 60% !important;
+}

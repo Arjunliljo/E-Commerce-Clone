@@ -8,6 +8,10 @@
   nav {
     display: flex;
   }
+  /* home page backgrounds */
+  #section1 {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* Extra extra large devices (large desktops, 1200px and up) */
