@@ -1,5 +1,8 @@
 @media (min-width: 768px) {
   /* CSS rules for large devices */
+  .slider-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Extra large devices (desktops, 992px and up) */
@@ -12,9 +15,15 @@
   .mainHeadings {
     visibility: hidden;
   }
+  .slider-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   /* CSS rules for extra extra large devices */
+  .slider-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }

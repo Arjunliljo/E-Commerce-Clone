@@ -1,23 +1,26 @@
 .slider-container {
   padding: 4rem;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
   background-color: rgb(255, 255, 255);
 }
 .slider-box {
   overflow: hidden;
-  text-align: left;
   text-wrap: nowrap;
 }
-.slider-box .img-box {
+.slider-container .img-box {
   height: 30rem;
   width: 100%;
+  padding: 2rem;
+
   overflow: hidden;
 }
 
 .slider-container img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .slider-container p {
   padding: 0.8rem 0;

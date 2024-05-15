@@ -12,7 +12,8 @@ export default function Section2({ data }) {
           <li>Bottom Wear /</li>
           <li>Co-Ords /</li>
         </ul>
-        <SliderBox data={data} />
+        <SliderBox data={data.slice(0, 5)} />
+        <button className="sec-btn">Shop dresses</button>
       </div>
     </section>
   );

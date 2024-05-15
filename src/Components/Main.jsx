@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import Section1 from "./Section-1";
 import Section2 from "./Section-2";
+import Section3 from "./Section-3";
+import Collection from "./Collection";
 
 export default function Main() {
   const [error, setError] = useState("");
@@ -40,7 +42,12 @@ export default function Main() {
       <Section1 data={data.slice(0, 2)}>
         <Button>Shop now</Button>
       </Section1>
-      <Section2 data={data} />
+      <Section2 data={data}>
+        <Button>Shop Now</Button>
+      </Section2>
+      <Section3>
+        <Collection data={data} />
+      </Section3>
     </main>
   );
 }

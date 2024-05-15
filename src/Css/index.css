@@ -50,3 +50,12 @@ nav a {
   gap: 1.2rem;
   margin: 3rem 0;
 }
+
+.sec-btn {
+  padding: 1.2rem 2rem;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}

@@ -3,11 +3,9 @@
 export default function SliderBox({ data }) {
   return (
     <div className="slider-container">
-      <SliderItems content={data[1]} />
-      <SliderItems content={data[1]} />
-      <SliderItems content={data[1]} />
-      <SliderItems content={data[1]} />
-      <SliderItems content={data[1]} />
+      {data.map((content) => (
+        <SliderItems content={content} key={content.id} />
+      ))}
     </div>
   );
 }
@@ -22,6 +20,7 @@ function SliderItems({ content }) {
       </div>
       <h3>{title(content.title)}</h3>
       <p>{desc(content.description)}</p>
+      <span>{content.price} $</span>
     </article>
   );
 }
