@@ -11,26 +11,11 @@ export default function Section1({ data, children }) {
 
   return (
     <section id="section1">
-      <div
-        className="firstBgImg"
-        style={{
-          ...style,
-          backgroundImage: `url(${data[0].image})`,
-        }}
-      >
-        {" "}
-      </div>
-      <div
-        className="secondBgImg"
-        style={{
-          ...style,
-          backgroundImage: `url(${data[1].image})`,
-        }}
-      ></div>
       <div className="home-contents">
-        <div className="flex">
-          <div style={{ fontSize: "50px", marginBottom: "2rem" }}>STRIP </div>
-          <div style={{ fontWeight: "900", fontSize: "70px" }}>CLUB</div>
+        <div className="mainHeadings">
+          {" "}
+          <h1>Strip</h1>
+          <h1>Club</h1>
         </div>
         {children}
       </div>

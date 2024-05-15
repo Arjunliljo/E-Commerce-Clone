@@ -6,8 +6,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* {loading && <Loader />}
-      {!loading && !error && <Main />} */}
       <Main></Main>
       <Footer />
     </>

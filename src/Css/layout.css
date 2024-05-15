@@ -4,6 +4,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  border-bottom: 1px solid white;
 }
 header .container {
   display: flex;
@@ -31,13 +32,17 @@ main {
 
 #section1 {
   height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 0px;
-  overflow: hidden;
-  align-content: center;
-  position: relative;
+  background-color: orangered;
+  background-image: url("https://virgio.com/cdn/shop/files/desktop-banner_5760x3240_crop_center.png?v=1715170198");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
-#section1 > * {
-  overflow: hidden;
-  height: 80rem;
+
+#section2 {
+  text-align: center;
+  background-color: red;
+}
+#section2 .container {
+  background-color: white;
 }

@@ -9,8 +9,8 @@
     display: flex;
   }
   /* home page backgrounds */
-  #section1 {
-    grid-template-columns: 1fr 1fr;
+  .mainHeadings {
+    visibility: hidden;
   }
 }
 

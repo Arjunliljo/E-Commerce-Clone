@@ -2,20 +2,16 @@
   width: 10rem;
 }
 .icons {
-  color: white;
+  color: rgb(221, 218, 218);
   display: flex;
   gap: 1rem;
+  font-weight: lighter;
 }
 .icons span {
   cursor: pointer;
 }
 nav a {
   color: white;
-}
-.secondBgImg,
-.firstBgImg {
-  height: 100%;
-  width: 100%;
 }
 
 .home-contents {
@@ -31,4 +27,26 @@ nav a {
   justify-content: space-between;
   width: 20%;
   height: 60% !important;
+}
+.mainHeadings {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-weight: 900;
+}
+.mainHeadings > * {
+  font-size: 10rem;
+}
+.mainHeadings > :first-child {
+  font-size: 8rem;
+}
+
+#section2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 1.2rem;
+  margin: 3rem 0;
 }
