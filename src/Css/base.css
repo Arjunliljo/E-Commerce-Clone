@@ -14,10 +14,14 @@ body {
 section:not(:first-child) {
   margin-top: 5rem;
 }
+h2 {
+  font-size: 3rem;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
+  height: 100%;
 }
 a {
   text-decoration: none;

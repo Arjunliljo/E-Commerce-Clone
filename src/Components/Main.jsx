@@ -4,6 +4,7 @@ import Section1 from "./Section-1";
 import Section2 from "./Section-2";
 import Section3 from "./Section-3";
 import Collection from "./Collection";
+import Section4 from "./Section-4";
 
 export default function Main() {
   const [error, setError] = useState("");
@@ -48,6 +49,7 @@ export default function Main() {
       <Section3>
         <Collection data={data} />
       </Section3>
+      <Section4 data={data} />
     </main>
   );
 }

@@ -41,7 +41,7 @@ nav a {
 .mainHeadings > :first-child {
   font-size: 8rem;
 }
-
+.section-4 ul,
 #section2 ul {
   display: flex;
   align-items: center;
@@ -58,4 +58,37 @@ nav a {
   color: white;
   background-color: black;
   cursor: pointer;
+}
+
+.collection-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 5rem 0;
+  gap: 1.5rem;
+}
+.collection-item {
+  height: 60rem;
+  border: 1px solid white;
+  background-size: 100%;
+  position: relative;
+  text-transform: uppercase;
+}
+.collection-item-content {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.collection-item-content h3 {
+  font-size: 4rem;
+  text-wrap: nowrap;
+  margin-bottom: 2rem;
+}
+.collection-item-content button {
+  text-wrap: nowrap;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(196, 13, 113) !important;
 }

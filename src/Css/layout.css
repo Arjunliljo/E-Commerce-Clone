@@ -38,7 +38,7 @@ main {
   background-repeat: no-repeat;
   background-position: left;
 }
-
+#secition4,
 #section2 {
   text-align: center;
 }
@@ -47,7 +47,15 @@ main {
 }
 
 #section3 {
-  margin: 3rem 0;
-  height: 85vh;
+  padding: 6rem 0;
   text-align: center;
+  background-color: rgb(226, 226, 226);
+}
+footer {
+  margin-top: 10rem;
+  background-color: black;
+  height: 50vh;
+  background-image: url("../Components/img/Footer.png");
+  background-size: auto;
+  background-repeat: no-repeat;
 }

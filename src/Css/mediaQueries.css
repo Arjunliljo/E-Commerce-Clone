@@ -8,6 +8,7 @@
 /* Extra large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* CSS rules for extra large devices */
+
   nav {
     display: flex;
   }
@@ -17,6 +18,12 @@
   }
   .slider-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .collection-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer {
+    background-image: url("../Components/img/Footer-b.png");
   }
 }
 
